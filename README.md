@@ -13,7 +13,6 @@ sdkconfig - Configuration file for ESP-IDF
 1. **Build the project:**
    ```sh
    idf.py build
-   idf.py flash
 2. **flash to target:**
    ```sh
    idf.py build
