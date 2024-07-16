@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/melek/Agritech_Rover/test_ESP/sample_project/build/CMakeFiles/bootloader
+/home/melek/Agritech_Rover/test_ESP/sample_project/build/CMakeFiles/bootloader.rule
+/home/melek/Agritech_Rover/test_ESP/sample_project/build/CMakeFiles/bootloader-complete.rule
+/home/melek/Agritech_Rover/test_ESP/sample_project/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/melek/Agritech_Rover/test_ESP/sample_project/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/melek/Agritech_Rover/test_ESP/sample_project/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/melek/Agritech_Rover/test_ESP/sample_project/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/melek/Agritech_Rover/test_ESP/sample_project/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/melek/Agritech_Rover/test_ESP/sample_project/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/melek/Agritech_Rover/test_ESP/sample_project/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
