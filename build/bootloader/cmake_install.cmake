@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/melek/Agritech_Rover/test_ESP/sample_project/build/bootloader/esp-idf/cmake_install.cmake")
+  include("/home/melek/Documents/ESP32/motor_control_esp32/build/bootloader/esp-idf/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/melek/Agritech_Rover/test_ESP/sample_project/build/bootloader/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/melek/Documents/ESP32/motor_control_esp32/build/bootloader/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

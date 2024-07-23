@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include "driver/ledc.h"
+
 #define SPEED_MODE      LEDC_LOW_SPEED_MODE
 #define TIMER_NUM       LEDC_TIMER_0
 #define DUTY_RESOLUTION LEDC_TIMER_13_BIT

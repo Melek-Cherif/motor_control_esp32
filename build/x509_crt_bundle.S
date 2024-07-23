@@ -1,4 +1,4 @@
-/* * Data converted from /home/melek/Agritech_Rover/test_ESP/sample_project/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from /home/melek/Documents/ESP32/motor_control_esp32/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 .section .rodata.embedded

@@ -1,4 +1,4 @@
-# Install script for directory: /home/melek/Agritech_Rover/test_ESP/sample_project/components/servo_motor
+# Install script for directory: /home/melek/Documents/ESP32/motor_control_esp32/components/servo_motor
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

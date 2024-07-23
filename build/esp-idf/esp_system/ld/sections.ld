@@ -1,6 +1,6 @@
 /* Automatically generated file; DO NOT EDIT */
 /* Espressif IoT Development Framework Linker Script */
-/* Generated from: /home/melek/Agritech_Rover/test_ESP/sample_project/build/esp-idf/esp_system/ld/sections.ld.in */
+/* Generated from: /home/melek/Documents/ESP32/motor_control_esp32/build/esp-idf/esp_system/ld/sections.ld.in */
 
 /*
  * SPDX-FileCopyrightText: 2021 Espressif Systems (Shanghai) CO LTD

@@ -1,6 +1,4 @@
-#include <stdio.h>
 #include "servo_motor.h"
-#include "driver/ledc.h"
 
 void setup_pwm(uint8_t SERVO_PIN) {
     // Configure the LEDC timer
