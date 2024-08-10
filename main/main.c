@@ -6,18 +6,13 @@
 #include "servo_motor.h"
 
 
-// #define OUTPUT_PIN_1    GPIO_NUM_12  // 
-//#define OUTPUT_PIN_2    GPIO_NUM_14  // 
-#define INPUT_PIN_1    GPIO_NUM_17  // 
-#define INPUT_PIN_2    GPIO_NUM_14  // 
-#define INPUT_PIN_3     GPIO_NUM_27  //
-#define INPUT_PIN_4     GPIO_NUM_25  // 
+// #define OUTPUT_PIN_1    GPIO_NUM_12  
+//#define OUTPUT_PIN_2    GPIO_NUM_14  
+#define INPUT_PIN_1    GPIO_NUM_17   
+#define INPUT_PIN_2    GPIO_NUM_14   
+#define INPUT_PIN_3     GPIO_NUM_27  
+#define INPUT_PIN_4     GPIO_NUM_25  
 #define SERVO_PIN       GPIO_NUM_5
-
-#define SERVO_MIN_PULSEWIDTH 1120  // Minimum pulse width in microsecond
-#define SERVO_MAX_PULSEWIDTH 1920  // Maximum pulse width in microsecond
-#define SERVO_MAX_DEGREE     90    // Maximum angle in degree up to which servo can rotate
-
 
 void setup_gpio()
 {
@@ -45,27 +40,27 @@ void app_main(void)
 
         if(sensor01)
         {
-            set_servo_angle(0); // Move to 90 degrees
+            set_servo_angle(0); // Move to 0 degrees
             printf("Moving to 0 degrees\n");
-            vTaskDelay(pdMS_TO_TICKS(500)); // Wait for 1 second
+            vTaskDelay(pdMS_TO_TICKS(500));
         }
         else if(sensor02)
         {
-            set_servo_angle(30); // Move back to 0 degrees
+            set_servo_angle(30); // Move to 30 degrees
             printf("Returning to 30 degrees\n");
-            vTaskDelay(pdMS_TO_TICKS(500)); // Wait for 1 second
+            vTaskDelay(pdMS_TO_TICKS(500));
         }
         else if(sensor03)
         {
-            set_servo_angle(60); // Move back to 0 degrees
+            set_servo_angle(60); // Move to 60 degrees
             printf("Returning to 60 degrees\n");
-            vTaskDelay(pdMS_TO_TICKS(500)); // Wait for 1 second
+            vTaskDelay(pdMS_TO_TICKS(500));
         }
         else if(sensor04)
         {
-            set_servo_angle(90); // Move back to 0 degrees
+            set_servo_angle(90); // Move to 90 degrees
             printf("Returning to 90 degrees\n");
-            vTaskDelay(pdMS_TO_TICKS(500)); // Wait for 1 second
+            vTaskDelay(pdMS_TO_TICKS(500)); 
         }
         vTaskDelay(pdMS_TO_TICKS(1));
     }

@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "main",
-    "project_version":    "c493c1d-dirty",
+    "project_version":    "ed394fb-dirty",
     "project_path":       "/home/melek/Documents/ESP32/motor_control_esp32",
     "idf_path":           "/home/melek/esp/v5.2.2/esp-idf",
     "build_dir":          "/home/melek/Documents/ESP32/motor_control_esp32/build",
