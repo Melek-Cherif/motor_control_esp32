@@ -1,13 +1,20 @@
 #include <stdio.h>
-#include "driver/ledc.h"
+#include "driver/mcpwm.h"
+#include "driver/gpio.h"
 
-/*Define parameters ....*/
+// Motor control setup
+void motor_control_init(uint8_t ENA, uint8_t ENB, uint8_t IN1, uint8_t IN2, uint8_t IN3, uint8_t IN4);
 
+void forward(uint8_t IN1, uint8_t IN2, uint8_t IN3, uint8_t IN4,float speed);
 
-void setup_pwm(uint8_t ENA, uint8_t ENB);
+void backward(uint8_t IN1, uint8_t IN2, uint8_t IN3, uint8_t IN4,float speed);
 
-void Forward(int speed);
-void Right(int speed);
-void Left(int speed);
-void Backward(int speed);
-void Stop();
+void right_turn(uint8_t IN1, uint8_t IN2, uint8_t IN3, uint8_t IN4,float speed);
+
+void sharp_right(uint8_t IN1, uint8_t IN2, uint8_t IN3, uint8_t IN4,float speed);
+
+void left_turn(uint8_t IN1, uint8_t IN2, uint8_t IN3, uint8_t IN4,float speed);
+
+void sharp_left(uint8_t IN1, uint8_t IN2, uint8_t IN3, uint8_t IN4,float speed);
+
+void stop_motor(uint8_t IN1, uint8_t IN2, uint8_t IN3, uint8_t IN4,float speed);
